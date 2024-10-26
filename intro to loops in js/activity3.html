@@ -3,27 +3,27 @@
         <p id="demo"></p>
         <script>
             var day;
-            switch(new Date().getDay())
+            switch(new Month().getMonth())
             {case 0:
                 day="Sunday";
                 break;
                 case 1:
-                day="Monday";
-                break;
-                case 2:
-                day="Tuesday";
-                break;
-                case 3 :
-                day="Wednesdy";
-                break;
-                case 4:
-                day="Thursday";
-                break;
-                case 5:
                 day="Friday";
                 break;
-                case 6:
+                case 2:
+                day="Wednesday";
+                break;
+                case 3 :
                 day="Saturday";
+                break;
+                case 4:
+                day="Tuesday";
+                break;
+                case 5:
+                day="Thursday";
+                break;
+                case 6:
+                day="Monday";
                 break;
             }
             document.getElementById("demo").innerHTML="Today is"+day;
