@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>login</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>real time validatio using css</h1>
+        <hr>
+        <form id="loginform" onsubmit="validate(event)">
+            <fieldset>
+                <div>
+                    <label for="email">email</label>
+                    
+                </div>
+                <div>
+                    <label for="email" id="email" name="email"></label>
+                </div>
+                <div>
+                    <label for="password">password</label>
+                    <input type="password" id="password" name="password" minlength="8">
+                </div>
+                <div>
+                    <label for="age">AGE</label>
+                    <input type="number" id="age" name="age" min="12" max="50">
+                </div>
+                <div>
+                    <button type="submit">login!!!!!!!!!!</button>
+
+                </div>
+            </fieldset>
+        </form>
+        <div id="message"></div>
+        <script src="script.js"></script>
+        
+    </body>
+</html>
