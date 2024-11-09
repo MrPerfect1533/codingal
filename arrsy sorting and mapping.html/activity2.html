@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <p>multiply</p>
+        <p id="product_value"></p>
+        <script>
+            var numbers=[6423,9873283497,87873984,34830];
+            function myFunction(num) {
+                return num*10;
+
+            }
+            var newarray=numbers.map(myFunction);
+            document.getElementById("product_value").innerHTML=newarray;
+        </script>
+    </body>
+</html>
