@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <p>xasbjhahjcgshfgsea</p>
+        <input id="id1" type="number" min="100" max="300" required>
+        <button onclick="myFunction()"ok></button>
+        <p>cjhshcghgehvf</p>
+        <p id="result"></p>
+        <script>
+            function myfunction () {
+                var inpObj=document.getElementById("id1");
+                if(!inpObj.checkValidity()) {
+                    document.getElementById("result").innerHTML-inpObj.validationMessage;
+                } else{
+                    document.getElementById("result").innerHTML="Input OK";
+                }
+            }
+        </script>
+    </body>
+</html>
