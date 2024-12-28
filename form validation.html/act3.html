@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <p>learn with codingal</p>
+        <input id="id1" type="number" min="634" max="907" required>
+        <button onclick="myFunction()"ok></button>
+        <p>fall in love with html</p>
+        <p id="result"></p>
+        <script>
+            function myfunction () {
+                var inpObj=document.getElementById("id1");
+                if(!inpObj.checkValidity()) {
+                    document.getElementById("result").innerHTML-inpObj.validationMessage;
+                } else{
+                    document.getElementById("result").innerHTML="Input OK";
+                }
+            }
+        </script>
+    </body>
+</html>
